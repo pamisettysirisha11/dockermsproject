@@ -19,3 +19,9 @@ services:
       - 83:80
     deploy:
       replicas: 3
+  recharge:
+    image: sirisha11/recharge
+    ports:
+      - 84:80
+    deploy:
+      replicas: 3
