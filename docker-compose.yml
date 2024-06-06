@@ -13,15 +13,9 @@ services:
       - 82:80
     deploy:
       replicas: 3
-  recharge:
+  dth:
     image: sirisha11/dth
     ports:
       - 83:80
-    deploy:
-      replicas: 3
-  dth:
-    image: sirisha11/recharge
-    ports:
-      - 84:80
     deploy:
       replicas: 3
