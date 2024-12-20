@@ -1,26 +1,26 @@
 ---
 version: "3.8"
 services:
-  movies:
-    image: sirisha11/movies
+  gmail:
+    image: sirisha11/gmail
     ports:
       - 81:80
     deploy:
       replicas: 3
-  train:
-    image: sirisha11/train
+  office:
+    image: sirisha11/office
     ports:
       - 82:80
     deploy:
       replicas: 3
-  dth:
-    image: sirisha11/dth
+  server:
+    image: sirisha11/server
     ports:
       - 83:80
     deploy:
       replicas: 3
-  recharge:
-    image: sirisha11/recharge
+  app:
+    image: sirisha11/app
     ports:
       - 84:80
     deploy:
